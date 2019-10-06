@@ -16,8 +16,8 @@ public class StringToHex{
 	/**
 	 * Method to convert hexadecimal values into ascii
 	 * method is return the ascii value
-	 * @param hexValue
-	 * @return outputAscii
+	 * @param String st
+	 * @return StringBuilder sb
 	 */
 	
 	  StringBuilder sb = new StringBuilder();
@@ -44,8 +44,8 @@ public class StringToHex{
 	/**
 	 * Method to convert ascii values into hexadecimal
 	 * method is returning the hexadecimal value
-	 * @param asciiValue
-	 * @return hex
+	 * @param String str
+	 * @return ASCII
 	 */
 		
 	  StringToHex strToHex = new StringToHex();
